@@ -1,6 +1,7 @@
 - [Best Block](#BestBlock)
 - [Two Sum](#TwoSum)
 - [Generate Parantheses](#GenerateParantheses)
+- [Three Sum](#ThreeSum)
 
 
 
@@ -124,5 +125,28 @@ The output is an array of well-formed parentheses
 ```
 Input: 3
 Output: ["((()))","(()())","(())()","()(())","()()()"]
+```
+
+
+
+
+## ThreeSum
+
+### Problem Statement
+Given an integer array nums, return all the triplets `[nums[i], nums[j], nums[k]` such that `i != j != k` and `nums[i] + nums[j] + nums[k] == 0`.
+
+
+### Input
+
+The input consists of:
+
+- `nums`: An Array of integers
+
+
+### Example
+
+```
+Input: nums = [-1,0,1,2,-1,-4]
+Output: [[-1,-1,2],[-1,0,1]]
 ```
 
