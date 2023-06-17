@@ -1,5 +1,6 @@
 - [Best Block](#BestBlock)
 - [Two Sum](#TwoSum)
+- [Generate Parantheses](#GenerateParantheses)
 
 
 
@@ -99,3 +100,29 @@ target = 9
 ```
 
 The correct answer is (4,5)
+
+
+
+
+## GenerateParantheses
+
+### Problem Statement
+Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+### Input
+
+The input consists of:
+
+- `n`: An integer such that 1 <= n <= 8
+
+### Output
+
+The output is an array of well-formed parentheses
+
+### Example
+
+```
+Input: 3
+Output: ["((()))","(()())","(())()","()(())","()()()"]
+```
+
