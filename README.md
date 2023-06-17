@@ -3,6 +3,7 @@
 - [Generate Parantheses](#GenerateParantheses)
 - [Three Sum](#ThreeSum)
 - [Longest Substring](#LongestSubstring)
+- [Longest Palindrome](#LongestPalindrome)
 
 ## BestBlock
 
@@ -164,4 +165,31 @@ Explanation: The answer is "wke"
 Input s = "jyercvgdyix"
 Output: 9
 Explanation: The answer is "ercvgdyix"
+```
+
+
+
+
+## LongestPalindrome
+
+### Problem Statement
+
+Given a string `s`, return the longest 
+palindromic substring in `s`.
+(A string is palindromic if it reads the same forward and backward)
+
+### Input
+
+The input consists of:
+
+- `s`: A string
+
+### Example
+
+```
+Input: s = "babad"
+Output: "bab"
+
+Input: s = "cbbd"
+Output: "bb"
 ```
