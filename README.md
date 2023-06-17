@@ -2,11 +2,11 @@
 - [Two Sum](#TwoSum)
 - [Generate Parantheses](#GenerateParantheses)
 - [Three Sum](#ThreeSum)
-
-
+- [Longest Substring](#LongestSubstring)
 
 ## BestBlock
-## Problem Statement  
+
+## Problem Statement
 
 Given a list of blocks, each with specific attributes, the task is to find the best block that satisfies the given requirements.
 
@@ -14,17 +14,14 @@ Given a list of blocks, each with specific attributes, the task is to find the b
 
 The input consists of two main components:
 
--  `blocks`: A list of objects representing different blocks. Each dictionary contains attributes or features of a block.
+- `blocks`: A list of objects representing different blocks. Each dictionary contains attributes or features of a block.
 
--  `reqs`: A list of strings representing the required attributes that the best block must have.
+- `reqs`: A list of strings representing the required attributes that the best block must have.
 
- 
 ## Output
 
- 
 The output is the index or key of the best block among the given list of blocks.
 
- 
 ## Example:
 
 In the given example, there are five blocks with their respective attributes. The required attributes are "gym", "school", and "store".
@@ -65,11 +62,6 @@ school: 0
 store: 0
 ```
 
-
-
-
-
-
 ## TwoSum
 
 ### Problem Statement
@@ -102,12 +94,10 @@ target = 9
 
 The correct answer is (4,5)
 
-
-
-
 ## GenerateParantheses
 
 ### Problem Statement
+
 Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
 
 ### Input
@@ -127,21 +117,17 @@ Input: 3
 Output: ["((()))","(()())","(())()","()(())","()()()"]
 ```
 
-
-
-
 ## ThreeSum
 
 ### Problem Statement
-Given an integer array nums, return all the triplets `[nums[i], nums[j], nums[k]` such that `i != j != k` and `nums[i] + nums[j] + nums[k] == 0`.
 
+Given an integer array nums, return all the triplets `[nums[i], nums[j], nums[k]` such that `i != j != k` and `nums[i] + nums[j] + nums[k] == 0`.
 
 ### Input
 
 The input consists of:
 
 - `nums`: An Array of integers
-
 
 ### Example
 
@@ -150,3 +136,32 @@ Input: nums = [-1,0,1,2,-1,-4]
 Output: [[-1,-1,2],[-1,0,1]]
 ```
 
+## LongestSubstring
+
+### Problem Statement
+
+Given a string `s`, find the length of the longest
+substring without repeating characters.
+(A substring is a contiguous non-empty sequence of characters within a string)
+
+### Input
+
+The input consists of:
+
+- `s`: A string
+
+### Example
+
+```
+Input: s = "abcabcbb"
+Output: 3
+Explanation: The answer is "abc"
+
+Input: s = "pwwkew"
+Output: 3
+Explanation: The answer is "wke"
+
+Input s = "jyercvgdyix"
+Output: 9
+Explanation: The answer is "ercvgdyix"
+```
